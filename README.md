@@ -1,71 +1,48 @@
-# SushiCounter
+# SushiCounter 🍣
 
-SushiCounter is an iOS application developed in **Swift** that works as a sushi piece counter. The app allows you to visually and interactively keep track of how many sushi pieces you have eaten 🍣. It is ideal as a learning project or as a small demo of Swift and iOS development skills.
+A minimalist, high-performance sushi consumption tracker built with SwiftUI and enhanced with smooth Lottie animations. Perfect for keeping track of your nigiri count and maintaining your personal eating records!
 
-![Simulator Recording](https://github.com/user-attachments/assets/fdb5e24f-9536-4a68-afb4-b2fde7b00612)
+[**Download on the App Store**](https://apps.apple.com/app/your-app-id) *(Coming Soon!)*
 
-## 📱 Features
+## Demo
 
-- Main counter for sushi pieces
-- Clean and simple user interface
-- Buttons to increment and reset the counter
-- iOS-style layout and interactions
+![Simulator Screen Recording - iPhone 17 - 2026-02-03 at 17 53 09](https://github.com/user-attachments/assets/fdb5e24f-9536-4a68-afb4-b2fde7b00612)
 
-## 🧠 Technologies
+## Features
 
-- Swift
-- Xcode (`.xcodeproj`)
-- UIKit / SwiftUI (depending on implementation)
+- **Intuitive Counter**: Just tap to "eat" and increment your count.
+- **Dynamic Animations**: Features a smooth Lottie-powered sushi animation that reacts to your interactions.
+- **Haptic Feedback**: High-quality haptic feedback for a premium feel on every tap.
+- **Best Score Tracking**: Automatically saves and displays your all-time high score using `AppStorage`.
+- **Undo Functionality**: Made a mistake? Quickly decrement your count with the undo button.
+- **Customizable Themes**: Toggle between Light, Dark, and System modes seamlessly within the app.
+- **Quick Reset**: Easily reset your current session or clear your best score from the settings menu.
 
-## 📁 Project Structure
+## Tech Stack
 
-```
-SushiCounter/
-├── SushiCounter.xcodeproj        # Xcode project
-├── SushiCounter/                 # App source code
-│   ├── AppDelegate.swift
-│   ├── SceneDelegate.swift
-│   ├── ViewController.swift
-│   ├── Assets.xcassets
-│   ├── LaunchScreen.storyboard
-│   └── Main.storyboard
-├── README.md
-└── .gitignore
-```
+- **Language**: [Swift 5.9+](https://swift.org/)
+- **Framework**: [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+- **Animations**: [Lottie-iOS](https://github.com/airbnb/lottie-ios)
+- **Persistance**: `AppStorage` (UserDefaults)
 
-*(Adjust file names if your actual structure differs)*
+## Requirements
 
-## 🛠️ Requirements
+- iOS 17.0+
+- Xcode 15.0+
 
-Before building and running the project, make sure you have:
+## Installation
 
-- macOS compatible with Xcode
-- Xcode 12 or newer
-- An iOS Simulator or a physical iOS device
-
-## 🚀 How to Run
-
-1. Clone the repository
+1. Clone the repository:
    ```bash
-   git clone https://github.com/CoceraCia/SushiCounter.git
+   git clone https://github.com/yourusername/SushiCounter.git
    ```
+2. Open `SushiCounter.xcodeproj` in Xcode.
+3. Ensure you have the [Lottie](https://github.com/airbnb/lottie-ios) dependency resolved (Swift Package Manager).
+4. Select your target device/simulator and press **Cmd + R** to run.
 
-2. Open the project in Xcode
-   ```bash
-   open SushiCounter/SushiCounter.xcodeproj
-   ```
+## License
 
-3. Select a simulator or connected device
-4. Press **Run (⌘R)** to build and launch the app
+This project is licensed under a custom Source Available License - see the [LICENSE](LICENSE) file for details.
 
-## 📌 Notes
-
-- Ensure the deployment target matches the minimum iOS version you want to support
-- If you add external dependencies, make sure they are properly configured
-
-## 📬 Contact
-
-Developed by **Miguel Cocera Cía**  
-Email: coceraciamiguel@gmail.com
-
-Thanks for checking out SushiCounter! 🍣
+---
+*Created by [Miguel Cocera](https://github.com/yourusername)*
