@@ -45,4 +45,4 @@ A minimalist, high-performance sushi consumption tracker built with SwiftUI and 
 This project is licensed under a custom Source Available License - see the [LICENSE](LICENSE) file for details.
 
 ---
-*Created by [Miguel Cocera](https://github.com/yourusername)*
+*Created by [Miguel Cocera Cia](https://github.com/CoceraCia)*
